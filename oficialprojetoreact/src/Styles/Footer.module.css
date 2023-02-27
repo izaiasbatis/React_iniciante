@@ -1,0 +1,32 @@
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 3em;
+    align-items: center;
+}
+.item {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.item li {
+    margin: 1em;
+}
+
+.item li:hover{
+    color: #ffbb33;  /*Aqui estamos repassando de forma automática o hover do li sem precisar dar uma classname*/
+}
+
+.item li svg{
+    cursor: pointer; /*Aqui estamos setando uma animaçao de cursor ao passar o mouse encima o elemento SVG - icons*/
+    font-size: 1.5em;
+}
+
+.copy {
+    margin-top: 5px;
+}
+.span{
+    font-weight: bold;
+    color: #ffbb33;
+}

@@ -1,0 +1,29 @@
+.container_home {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /*dividir de forma colunar pois iremos criar passo a passo de tabela*/   
+    justify-content: center;   /*centralizar na horizontal*/;
+    align-items: center; /*centralizar na vertical*/
+    padding: 4em;
+} 
+
+.container_home h1 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.container_home h1 span{
+    color: #ffbb33;
+    background-color: #222 ;
+    padding: 0 .2em;
+}
+
+.container_home p{
+    color: #7b7b7b;
+    padding-bottom: 2.5em;
+}
+
+.container_home img {
+    width: 350px;
+    margin: 2em 0;
+}
