@@ -1,20 +1,15 @@
 import styles from '../Styles/ProjetoFormularios.module.css'
 import Projetos_input from './Forms/Projetos_input'
+import Select from './Forms/Select';
+import Submete_botton from './Forms/Submeter_botton';
 
-function ProjetoFormularios() {
+function ProjetoFormularios({btnText}) {/* importando btntext do componente pai New projects*/
     return(
         <form className={styles.formulário}>
             <div><Projetos_input type="text" name="name" text="Nome do Projeto" placeholder="Insira o nome do Projeto"/></div>
             <div><Projetos_input type="number" name="budget" text="Orçamento do projeto" placeholder="Insira o orçamento total"/></div>
-            <div>
-                <select name="categoria_id">
-                    <option disable selected>Selecionar categoria</option>
-                </select>
-            </div>
-            <div>
-                <input type="submit" value= "criar projeto">
-                </input>
-            </div>
+            <Select name="category_id" text="Selecione uma categoria"/>
+            <Submete_botton text={btnText}/>
         </form>
     )
 }

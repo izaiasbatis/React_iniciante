@@ -1,4 +1,4 @@
-// Aqui serão adicionados itens que serão utilizado sempre por isso o chamamos de container
+// Aqui serão adicionados itens que serão utilizado sempre por isso o chamamos de container = tela total
 import styles from '../Styles/Container.module.css' /*Aqui onde importamos o módulo css*/
 function Container(props) {
     return (

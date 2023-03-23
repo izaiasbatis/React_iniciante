@@ -1,3 +1,12 @@
+# antes de mais nada leia isto Izaias
+1 - criar o projeto npm x creat-react-app nomeprojeto
+2 - npm install json-server react-icons react-router-dom uuid  -- todos são dependências necessárias
+3 - desenvolva o projeto
+4 - cria um arquivo no primeiro nível do projeto db.js com a estrutura ( { "project": []}) pois isso permitirá gerar o banco
+5 - vá em package.json depois do script start, adicione o "backend": "json-server --watch db.json --port 5000",
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
